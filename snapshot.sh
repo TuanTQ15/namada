@@ -1,3 +1,4 @@
+sudo systemctl stop namadad
 cp .local/share/namada/shielded-expedition.88f17d1d14/cometbft/data/priv_validator_state.json .local/share/namada/priv_validator_state.json 
 sudo apt install lz4
 mkdir ~/namada-temp
