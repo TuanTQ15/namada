@@ -1,5 +1,5 @@
 #!/bin/bash
-
+sudo systemctl stop namadad.service
 OPERATING_SYSTEM="Linux" # or "Darwin" for MacOS
 
 # Specify the directory for download and extraction
